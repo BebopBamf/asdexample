@@ -80,6 +80,8 @@ DATABASES = {
         'NAME': 'asdexampledb',
         'USER': 'asduser',
         'PASSWORD': 'Strong!Password',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 

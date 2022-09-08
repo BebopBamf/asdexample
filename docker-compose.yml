@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  database:
+    container_name: asdexamplepgdb
+    image: postgres:alpine
+    environment:
+      - POSTGRES_DB=asdexampledb
+      - POSTGRES_USER=asduser
+      - POSTGRES_PASSWORD=Strong!Password
+    ports:
+      - 5432:5432
